@@ -94,6 +94,10 @@ pip install seaborn
 
 
 
+## FULL VERSION PRETEST RESULTS
+
+[Google Drive Link](https://drive.google.com/file/d/1k8Odom3b7HC1hGeDV3Rz9DBGP7Rxk2Zn/view?usp=sharing)
+
 ## Acknowledgments
 
 - [minjiechen/magnetchallenge](https://github.com/minjiechen/magnetchallenge)
