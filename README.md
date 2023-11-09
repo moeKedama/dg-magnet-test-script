@@ -72,7 +72,7 @@ pip install seaborn
 - Modify the `norm_dict` and `pth_PATH` in `main` .
   - `norm_dict` load the normalization coefficients as a *dictionary* , the saved coefficients are in `var_file` directory.
   - `pth_PATH` is the path of saved model.
-- Run , result will be saved at `pred_file/ `.
+- Run , result will be saved at `pred_file/`.
 
 ```
 ├── pred_file/10domain
