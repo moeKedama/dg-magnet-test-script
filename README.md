@@ -22,7 +22,7 @@ pip install seaborn
 
 ## Test only
 
-- Put the model to `pth_file` folder, Download the [dg-magnet-test-script-model](https://drive.google.com/file/d/1wPTIV1UM8M_bGaygE-NBeeGJ71x6DaA2/view?usp=sharing)
+- Download the [dg-magnet-test-script-model](https://drive.google.com/file/d/1wPTIV1UM8M_bGaygE-NBeeGJ71x6DaA2/view?usp=sharing), put the model into `pth_file` directory. 
 
 ```
 ├── pth_file/10domain
@@ -46,7 +46,7 @@ pip install seaborn
 │   ├── N
 ```
 
-- put test datasets to `valid_data` folder , Download the [MagNet Challenge Validation Data](https://www.dropbox.com/sh/4ppuzu7z4ky3m6l/AAApqXcxr_Fnr5x9f5qDr8j8a?dl=0)
+- Download the [MagNet Challenge Validation Data](https://www.dropbox.com/sh/4ppuzu7z4ky3m6l/AAApqXcxr_Fnr5x9f5qDr8j8a?dl=0), put test datasets into `valid_data` directory.
 
 ```
 ├── valid_data
@@ -67,12 +67,12 @@ pip install seaborn
 │   ├── N87
 ```
 
-- Modify the function `get_args()`
-  - modify the `--dataset` in the `get_args() ` (see the commented code)
-- Modify the `norm_dict` and `pth_PATH` in `main` 
-  - `norm_dict` load the normalization coefficients as a *dictionary* , the saved coefficients are in `var_file` folder
-  - `pth_PATH` is the path of saved model 
-- Run , result will be saved at `pred_file/`
+- Modify the function `get_args()` .
+  - modify the `--dataset` in the `get_args() ` (see the commented code).
+- Modify the `norm_dict` and `pth_PATH` in `main` .
+  - `norm_dict` load the normalization coefficients as a *dictionary* , the saved coefficients are in `var_file` directory.
+  - `pth_PATH` is the path of saved model.
+- Run , result will be saved at `pred_file/ `.
 
 ```
 ├── pred_file/10domain
@@ -90,7 +90,7 @@ pip install seaborn
 
 ## Train
 
-*Coming soon*
+*Coming soon*.
 
 
 
